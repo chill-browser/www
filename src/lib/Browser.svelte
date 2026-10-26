@@ -63,7 +63,7 @@
         width="1609"
         height="1043"
         alt="Chill Browser with vertical tabs and workspaces."
-        class="print-frame h-[420px] w-full object-cover object-left-top sm:h-[520px] lg:h-[min(58vh,600px)]"
+        class="print-frame w-full"
       />
       <figcaption class="relative z-[1] mt-3 text-[12px] text-navy/55">The browser, with the quiet parts kept.</figcaption>
     </figure>
