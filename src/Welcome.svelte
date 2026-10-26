@@ -43,7 +43,7 @@
         page be the point.
       </p>
       <div class="mt-10 flex flex-wrap items-center gap-7">
-        <a class="btn btn-navy" href="https://chill-browser.github.io/www/">Start browsing</a>
+        <a class="btn btn-navy" href="https://chill-browser.vercel.app/">Start browsing</a>
         <a class="text-link text-navy" href="https://github.com/chill-browser/desktop">
           View the source <span aria-hidden="true">↗</span>
         </a>
