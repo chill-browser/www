@@ -21,8 +21,8 @@
   ]
 </script>
 
-<main class="min-h-svh bg-sand text-navy">
-  <header class="shell flex h-[74px] items-center justify-between">
+<main class="flex h-screen flex-col overflow-hidden bg-sand text-navy">
+  <header class="shell flex h-[74px] shrink-0 items-center justify-between">
     <a class="flex items-center gap-3" href="./">
       <img src={logo} alt="" width="30" height="30" />
       <span class="font-display text-[27px] leading-none tracking-[-0.02em]">Chill</span>
@@ -32,7 +32,7 @@
     </a>
   </header>
 
-  <section class="shell grid gap-14 pb-20 pt-10 lg:grid-cols-[0.88fr_1.12fr] lg:gap-24 lg:pt-20">
+  <section class="shell grid min-h-0 flex-1 gap-14 overflow-y-auto pb-20 pt-10 lg:grid-cols-[0.88fr_1.12fr] lg:gap-24 lg:pt-20">
     <div class="min-w-0">
       <p class="text-[12px] font-medium uppercase tracking-[0.18em] text-teal">Welcome!</p>
       <h1 class="mt-5 max-w-[9ch] text-[clamp(3.2rem,5.8vw,5.8rem)] leading-[0.93] tracking-[-0.04em]">
@@ -71,7 +71,7 @@
     </div>
   </section>
 
-  <footer class="shell flex flex-wrap items-center justify-between gap-4 border-t border-navy/15 py-6 text-[12px] text-navy/50">
+  <footer class="shell flex shrink-0 flex-wrap items-center justify-between gap-4 border-t border-navy/15 py-6 text-[12px] text-navy/50">
     <span>Chill Browser</span>
     <span>Built on Zen. Made for a calmer web.</span>
   </footer>
