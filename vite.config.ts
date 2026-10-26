@@ -5,4 +5,12 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [svelte(), tailwindcss()],
   base: './',
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        welcome: 'welcome.html',
+      },
+    },
+  },
 })
