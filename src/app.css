@@ -644,3 +644,33 @@ body.is-inspecting .inspect-tag {
     min-height: 430px;
   }
 }
+
+.print-stage {
+  position: relative;
+}
+
+.print-stage::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  inset: 10% -6% -8% 6%;
+  border-radius: 32px;
+  background: color-mix(in srgb, var(--color-mint) 58%, transparent);
+  filter: blur(42px);
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.print-frame {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid color-mix(in srgb, var(--color-navy) 12%, transparent);
+  border-radius: 18px;
+  background: #f4efe2;
+  box-shadow:
+    0 2px 0 color-mix(in srgb, var(--color-sand) 70%, transparent),
+    0 32px 80px -30px color-mix(in srgb, var(--color-navy) 50%, transparent);
+}

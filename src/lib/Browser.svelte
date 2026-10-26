@@ -1,5 +1,5 @@
 <script lang="ts">
-  import logo from '../assets/logo.svg'
+  import browserPrint from '../assets/prints/chill-browser.png'
   import { reveal } from './reveal'
 
   const features = [
@@ -57,47 +57,15 @@
       </p>
     </div>
 
-    <div use:reveal={{ delay: 120 }} class="browser-showcase">
-      <div class="side-panel" data-ui role="img" aria-label="Chill Browser sidebar with Personal, Work and Study workspaces and vertical tabs.">
-        <div class="side-panel__head">
-          <img src={logo} alt="" width="24" height="24" />
-          <span>Chill</span>
-        </div>
-
-        <div class="side-panel__workspaces" aria-hidden="true">
-          <span class="is-active">Personal</span>
-          <span>Work</span>
-          <span>Study</span>
-        </div>
-
-        <div class="side-panel__tabs" aria-hidden="true">
-          <div class="side-panel__tab is-active">
-            <span class="side-panel__dot"></span>
-            <span>The quiet web</span>
-          </div>
-          <div class="side-panel__tab">
-            <span class="side-panel__dot"></span>
-            <span>Design notes</span>
-          </div>
-          <div class="side-panel__tab">
-            <span class="side-panel__dot"></span>
-            <span>Changelog</span>
-          </div>
-          <div class="side-panel__tab">
-            <span class="side-panel__dot"></span>
-            <span>Reading list</span>
-          </div>
-          <div class="side-panel__tab">
-            <span class="side-panel__dot"></span>
-            <span>A calmer internet</span>
-          </div>
-        </div>
-
-        <div class="side-panel__new">
-          <span>+ New tab</span>
-          <span>⌘ T</span>
-        </div>
-      </div>
-    </div>
+    <figure use:reveal={{ delay: 120 }} class="print-stage m-0 min-w-0">
+      <img
+        src={browserPrint}
+        width="1609"
+        height="1043"
+        alt="Chill Browser with vertical tabs and workspaces."
+        class="print-frame h-[420px] w-full object-cover object-left-top sm:h-[520px] lg:h-[min(58vh,600px)]"
+      />
+      <figcaption class="relative z-[1] mt-3 text-[12px] text-navy/55">The browser, with the quiet parts kept.</figcaption>
+    </figure>
   </div>
 </section>

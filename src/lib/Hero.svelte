@@ -2,7 +2,7 @@
   import { onMount } from 'svelte'
   import { gsap } from 'gsap'
   import { ScrollTrigger } from 'gsap/ScrollTrigger'
-  import BrowserFrame from './BrowserFrame.svelte'
+  import browserPrint from '../assets/prints/chill-browser.png'
   import { reveal } from './reveal'
   import { onAnchor } from './scroll'
 
@@ -65,10 +65,16 @@
       </p>
     </div>
 
-    <div class="flex min-w-0 items-center justify-center bg-sage px-5 py-10 sm:px-8 lg:px-10 lg:py-14">
-      <div use:reveal={{ delay: 120 }} class="w-full max-w-[560px]">
-        <div bind:this={frameEl} class="will-change-transform">
-          <BrowserFrame />
+    <div class="flex min-w-0 items-center justify-center bg-sage px-5 py-12 sm:px-8 lg:px-12 lg:py-16">
+      <div use:reveal={{ delay: 120 }} class="w-full max-w-[650px]">
+        <div bind:this={frameEl} class="print-stage will-change-transform">
+          <img
+            src={browserPrint}
+            width="1609"
+            height="1043"
+            alt="Chill Browser showing its welcome screen with vertical tabs."
+            class="print-frame"
+          />
         </div>
       </div>
     </div>
