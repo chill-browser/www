@@ -40,7 +40,9 @@
       <a class="text-link text-sand" href={releaseUrl}>All downloads <span aria-hidden="true">↗</span></a>
     </div>
     <p use:reveal={{ delay: 250 }} class="mt-8 text-[13px] text-sand/45">
-      macOS, Windows and Linux. Other builds are on <a class="transition-colors hover:text-sand" href={releaseUrl}>GitHub</a>.
+      macOS on Apple Silicon and Linux. Windows is next. The macOS build is
+      unsigned: right-click Chill and choose Open the first time. Other builds
+      are on <a class="transition-colors hover:text-sand" href={releaseUrl}>GitHub</a>.
     </p>
   </div>
 </section>

@@ -61,7 +61,7 @@
       </div>
 
       <p use:reveal={{ delay: 220 }} class="mt-7 text-[13px] text-sage">
-        Free and open source · macOS, Windows and Linux
+        Free and open source · macOS on Apple Silicon and Linux
       </p>
     </div>
 
