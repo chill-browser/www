@@ -19,4 +19,4 @@ This is the website for **Chill Browser**, a Zen-based browser with Chrome DevTo
 
 The download button reads the latest GitHub release and picks the matching asset for the visitor's system. The current release ships Linux x86_64 and macOS Apple Silicon builds. Windows is not available yet.
 
-The macOS build is unsigned, so the first launch asks for a right-click → Open. Python 3.7+ is required for the bundled Chrome DevTools frontend.
+The macOS build is unsigned, so the first launch asks for a right-click → Open. The DevTools frontend is bundled with the app.
